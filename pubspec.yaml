@@ -1,5 +1,5 @@
 name: darteventkit
 version: 0.0.1
-author: Gerald Leeb
+author: Gerald Leeb <gerald@g-24.net>
 description: Dart binding for macOS EventKit
 homepage: https://github.com/gerald24/darteventkit
