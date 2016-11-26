@@ -10,8 +10,8 @@ Xcode settings
 
 Link needed library
 
-![General Settings](./screenshots/general.png)
+![General Settings](doc/general.png)
 
 Build Settings
 
-![Build Settings](screenshots/build_settings.png)
+![Build Settings](doc/build_settings.png)
