@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		747D9ED11DE7760400A7241D /* darteventkit.h in Headers */ = {isa = PBXBuildFile; fileRef = 747D9ED01DE7760400A7241D /* darteventkit.h */; };
+		747D9ED31DE7760400A7241D /* darteventkit.m in Sources */ = {isa = PBXBuildFile; fileRef = 747D9ED21DE7760400A7241D /* darteventkit.m */; };
+		747D9EDB1DE7760F00A7241D /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 747D9EDA1DE7760F00A7241D /* EventKit.framework */; };
+		747D9EE01DE8BFF000A7241D /* EventJsonSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 747D9EDE1DE8BFF000A7241D /* EventJsonSerialization.h */; };
+		747D9EE11DE8BFF000A7241D /* EventJsonSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 747D9EDF1DE8BFF000A7241D /* EventJsonSerialization.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		747D9ECD1DE7760400A7241D /* libdarteventkit.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libdarteventkit.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		747D9ED01DE7760400A7241D /* darteventkit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = darteventkit.h; sourceTree = "<group>"; };
+		747D9ED21DE7760400A7241D /* darteventkit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = darteventkit.m; sourceTree = "<group>"; };
+		747D9EDA1DE7760F00A7241D /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		747D9EDC1DE7778400A7241D /* libexec */ = {isa = PBXFileReference; lastKnownFileType = folder; name = libexec; path = ../../../../../../../usr/local/Cellar/dart/1.20.1/libexec; sourceTree = "<group>"; };
+		747D9EDE1DE8BFF000A7241D /* EventJsonSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventJsonSerialization.h; sourceTree = "<group>"; };
+		747D9EDF1DE8BFF000A7241D /* EventJsonSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventJsonSerialization.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		747D9ECA1DE7760400A7241D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				747D9EDB1DE7760F00A7241D /* EventKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		747D9EC41DE7760400A7241D = {
+			isa = PBXGroup;
+			children = (
+				747D9EDC1DE7778400A7241D /* libexec */,
+				747D9ECF1DE7760400A7241D /* darteventkit */,
+				747D9ECE1DE7760400A7241D /* Products */,
+				747D9ED91DE7760F00A7241D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		747D9ECE1DE7760400A7241D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				747D9ECD1DE7760400A7241D /* libdarteventkit.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		747D9ECF1DE7760400A7241D /* darteventkit */ = {
+			isa = PBXGroup;
+			children = (
+				747D9ED01DE7760400A7241D /* darteventkit.h */,
+				747D9ED21DE7760400A7241D /* darteventkit.m */,
+				747D9EDE1DE8BFF000A7241D /* EventJsonSerialization.h */,
+				747D9EDF1DE8BFF000A7241D /* EventJsonSerialization.m */,
+			);
+			path = darteventkit;
+			sourceTree = "<group>";
+		};
+		747D9ED91DE7760F00A7241D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				747D9EDA1DE7760F00A7241D /* EventKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		747D9ECB1DE7760400A7241D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				747D9EE01DE8BFF000A7241D /* EventJsonSerialization.h in Headers */,
+				747D9ED11DE7760400A7241D /* darteventkit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		747D9ECC1DE7760400A7241D /* darteventkit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 747D9ED61DE7760400A7241D /* Build configuration list for PBXNativeTarget "darteventkit" */;
+			buildPhases = (
+				747D9EC91DE7760400A7241D /* Sources */,
+				747D9ECA1DE7760400A7241D /* Frameworks */,
+				747D9ECB1DE7760400A7241D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = darteventkit;
+			productName = darteventkit;
+			productReference = 747D9ECD1DE7760400A7241D /* libdarteventkit.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		747D9EC51DE7760400A7241D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = g24.net;
+				TargetAttributes = {
+					747D9ECC1DE7760400A7241D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 747D9EC81DE7760400A7241D /* Build configuration list for PBXProject "darteventkit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 747D9EC41DE7760400A7241D;
+			productRefGroup = 747D9ECE1DE7760400A7241D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				747D9ECC1DE7760400A7241D /* darteventkit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		747D9EC91DE7760400A7241D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				747D9ED31DE7760400A7241D /* darteventkit.m in Sources */,
+				747D9EE11DE8BFF000A7241D /* EventJsonSerialization.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		747D9ED41DE7760400A7241D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		747D9ED51DE7760400A7241D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		747D9ED71DE7760400A7241D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = "DART_SHARED_LIB=1";
+				HEADER_SEARCH_PATHS = /usr/local/opt/dart/libexec/;
+				INSTALL_PATH = ../lib;
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = build;
+			};
+			name = Debug;
+		};
+		747D9ED81DE7760400A7241D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = "DART_SHARED_LIB=1";
+				HEADER_SEARCH_PATHS = /usr/local/opt/dart/libexec/;
+				INSTALL_PATH = ../lib;
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = build;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		747D9EC81DE7760400A7241D /* Build configuration list for PBXProject "darteventkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				747D9ED41DE7760400A7241D /* Debug */,
+				747D9ED51DE7760400A7241D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		747D9ED61DE7760400A7241D /* Build configuration list for PBXNativeTarget "darteventkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				747D9ED71DE7760400A7241D /* Debug */,
+				747D9ED81DE7760400A7241D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 747D9EC51DE7760400A7241D /* Project object */;
+}

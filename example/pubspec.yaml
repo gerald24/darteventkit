@@ -1,0 +1,7 @@
+name: darteventkitdemo
+version: 0.0.1
+author: Gerald Leeb
+description: demo code for darteventkit
+dependencies:
+  darteventkit:
+    path: ..
