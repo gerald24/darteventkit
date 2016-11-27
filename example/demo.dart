@@ -25,9 +25,13 @@ void main() {
     // fetch events from calendar named "Demo" from today back to 2 years
     var eventJson = calendarEvents("Demo");
 
-    List<Event> events = [];
-    JSON.decode(eventJson)
-        .forEach((values) => events.add(new Event.fromMap(values)));
+    var result = JSON.decode(eventJson);
+    if (result is List) {
+      List<Event> events = [];
+      result.forEach((values) => events.add(new Event.fromMap(values)));
+      events.forEach((event) => print("${event.title} : ${event.startDate}-${event.endDate} (${event.duration} mins)"));
+    } else {
+      print(eventJson);
+    }
 
-    events.forEach((event) => print("${event.title} : ${event.startDate}-${event.endDate} (${event.duration} mins)"));
 }

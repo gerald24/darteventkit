@@ -41,13 +41,13 @@
         return nil;
     }
     
-    EKCalendar* calendar = [eventStore defaultCalendarForNewEvents];
+    EKCalendar* calendar = nil;
     for (EKCalendar* cal in [eventStore calendarsForEntityType: EKEntityTypeEvent]) {
         if ([cal.title isEqual: calendarName])
             calendar = cal;
     }
     if (calendar  == nil) {
-        return @"{error: 'calendar not found'}";
+        return @"{\"error\": \"calendar not found\"}";
     }
     
     NSCalendar* gregorian = [[NSCalendar alloc] initWithCalendarIdentifier: NSCalendarIdentifierGregorian];
